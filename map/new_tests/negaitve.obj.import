@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/negaitve.obj-0a7135544c1bad2001b45501fcb11e79.mesh"
+
+[deps]
+
+files=[ "res://.import/negaitve.obj-0a7135544c1bad2001b45501fcb11e79.mesh" ]
+
+source_file="res://map/new_tests/negaitve.obj"
+dest_files=[ "res://.import/negaitve.obj-0a7135544c1bad2001b45501fcb11e79.mesh", "res://.import/negaitve.obj-0a7135544c1bad2001b45501fcb11e79.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

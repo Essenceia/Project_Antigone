@@ -1,0 +1,172 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://map/Walls.png" type="Texture" id=1]
+[ext_resource path="res://icons/position_indication.png" type="Texture" id=2]
+[ext_resource path="res://icons/position_door.png" type="Texture" id=3]
+[ext_resource path="res://scripts/navigation/map.gd" type="Script" id=4]
+[ext_resource path="res://scripts/navigation/mouvement.gd" type="Script" id=6]
+[ext_resource path="res://scripts/navigation/nav_manager.gd" type="Script" id=7]
+
+[node name="Spatial" type="Node2D"]
+script = ExtResource( 7 )
+
+[node name="env" type="Sprite" parent="."]
+position = Vector2( 956, 544 )
+scale = Vector2( 3.41429, 2.68 )
+texture = ExtResource( 1 )
+
+[node name="chara" type="Node2D" parent="env"]
+script = ExtResource( 6 )
+
+[node name="pos" type="Node2D" parent="env"]
+script = ExtResource( 4 )
+
+[node name="D000" type="Sprite" parent="env/pos"]
+position = Vector2( -165.188, 130.97 )
+scale = Vector2( 0.280333, 0.313433 )
+texture = ExtResource( 3 )
+
+[node name="D010" type="Sprite" parent="env/pos"]
+position = Vector2( -104.268, 131.343 )
+scale = Vector2( 0.280333, 0.313433 )
+texture = ExtResource( 3 )
+
+[node name="D020" type="Sprite" parent="env/pos"]
+position = Vector2( -85.5229, 119.403 )
+scale = Vector2( 0.280333, 0.313433 )
+texture = ExtResource( 3 )
+
+[node name="D030" type="Sprite" parent="env/pos"]
+position = Vector2( -50.3765, 155.224 )
+scale = Vector2( 0.280333, 0.313433 )
+texture = ExtResource( 3 )
+
+[node name="D050" type="Sprite" parent="env/pos"]
+position = Vector2( -169.874, 113.433 )
+scale = Vector2( 0.280333, 0.313433 )
+texture = ExtResource( 3 )
+
+[node name="D070" type="Sprite" parent="env/pos"]
+position = Vector2( -113.64, 119.403 )
+scale = Vector2( 0.280333, 0.313433 )
+texture = ExtResource( 3 )
+
+[node name="D040" type="Sprite" parent="env/pos"]
+position = Vector2( -169.874, 83.5822 )
+scale = Vector2( 0.280333, 0.313433 )
+texture = ExtResource( 3 )
+
+[node name="D060" type="Sprite" parent="env/pos"]
+position = Vector2( -144.1, 119.403 )
+scale = Vector2( 0.280333, 0.313433 )
+texture = ExtResource( 3 )
+
+[node name="P001" type="Sprite" parent="env/pos"]
+position = Vector2( -212.05, 152.239 )
+scale = Vector2( 0.280333, 0.313433 )
+texture = ExtResource( 2 )
+
+[node name="P002" type="Sprite" parent="env/pos"]
+position = Vector2( -183.933, 149.254 )
+scale = Vector2( 0.280333, 0.313433 )
+texture = ExtResource( 2 )
+
+[node name="P003" type="Sprite" parent="env/pos"]
+position = Vector2( -167.531, 164.179 )
+scale = Vector2( 0.280333, 0.313433 )
+texture = ExtResource( 2 )
+
+[node name="P004" type="Sprite" parent="env/pos"]
+position = Vector2( -195.648, 134.328 )
+scale = Vector2( 0.280333, 0.313433 )
+texture = ExtResource( 2 )
+
+[node name="P011" type="Sprite" parent="env/pos"]
+position = Vector2( -127.699, 152.239 )
+scale = Vector2( 0.280333, 0.313433 )
+texture = ExtResource( 2 )
+
+[node name="P021" type="Sprite" parent="env/pos"]
+position = Vector2( -87.9664, 98.0298 )
+scale = Vector2( 0.280333, 0.313433 )
+texture = ExtResource( 2 )
+
+[node name="P022" type="Sprite" parent="env/pos"]
+position = Vector2( -69.1212, 98.5074 )
+scale = Vector2( 0.280333, 0.313433 )
+texture = ExtResource( 2 )
+
+[node name="P023" type="Sprite" parent="env/pos"]
+position = Vector2( -48.0334, 98.5074 )
+scale = Vector2( 0.280333, 0.313433 )
+texture = ExtResource( 2 )
+
+[node name="P031" type="Sprite" parent="env/pos"]
+position = Vector2( -76.1505, 155.224 )
+scale = Vector2( 0.280333, 0.313433 )
+texture = ExtResource( 2 )
+
+[node name="P041" type="Sprite" parent="env/pos"]
+position = Vector2( -197.991, 86.5671 )
+scale = Vector2( 0.280333, 0.313433 )
+texture = ExtResource( 2 )
+
+[node name="P051" type="Sprite" parent="env/pos"]
+position = Vector2( -197.991, 116.418 )
+scale = Vector2( 0.280333, 0.313433 )
+texture = ExtResource( 2 )
+
+[node name="P061" type="Sprite" parent="env/pos"]
+position = Vector2( -144.1, 98.5074 )
+scale = Vector2( 0.280333, 0.313433 )
+texture = ExtResource( 2 )
+
+[node name="P071" type="Sprite" parent="env/pos"]
+position = Vector2( -115.983, 98.5074 )
+scale = Vector2( 0.280333, 0.313433 )
+texture = ExtResource( 2 )
+
+[node name="P091" type="Sprite" parent="env/pos"]
+position = Vector2( -165.188, 80.5971 )
+scale = Vector2( 0.280333, 0.313433 )
+texture = ExtResource( 2 )
+
+[node name="P092" type="Sprite" parent="env/pos"]
+position = Vector2( -165.188, 122.388 )
+scale = Vector2( 0.280333, 0.313433 )
+texture = ExtResource( 2 )
+
+[node name="P093" type="Sprite" parent="env/pos"]
+position = Vector2( -113.64, 125.373 )
+scale = Vector2( 0.280333, 0.313433 )
+texture = ExtResource( 2 )
+
+[node name="P094" type="Sprite" parent="env/pos"]
+position = Vector2( -45.6903, 125.373 )
+scale = Vector2( 0.280333, 0.313433 )
+texture = ExtResource( 2 )
+
+[node name="P095" type="Sprite" parent="env/pos"]
+position = Vector2( -45.6903, 146.269 )
+scale = Vector2( 0.280333, 0.313433 )
+texture = ExtResource( 2 )
+
+[node name="P111" type="Sprite" parent="env/pos"]
+position = Vector2( -10.5439, 140.299 )
+scale = Vector2( 0.280333, 0.313433 )
+texture = ExtResource( 2 )
+
+[node name="P121" type="Sprite" parent="env/pos"]
+position = Vector2( 52.7197, 140.298 )
+scale = Vector2( 0.280333, 0.313433 )
+texture = ExtResource( 2 )
+
+[node name="P131" type="Sprite" parent="env/pos"]
+position = Vector2( 108.954, 140.298 )
+scale = Vector2( 0.280333, 0.313433 )
+texture = ExtResource( 2 )
+
+[node name="P132" type="Sprite" parent="env/pos"]
+position = Vector2( 108.954, 140.298 )
+scale = Vector2( 0.280333, 0.313433 )
+texture = ExtResource( 2 )
